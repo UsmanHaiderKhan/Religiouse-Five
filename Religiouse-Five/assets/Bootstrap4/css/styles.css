@@ -1,0 +1,2997 @@
+﻿/*================================= 
+        Font-Family's Start
+  =================================*/
+@font-face {
+    font-family: 'arial';
+    src: url('../../Fonts/arial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+    src: url('../../Fonts/FontsFree-Net-Proxima-Nova-Bold (1).otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../../Fonts/Proxima Nova Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src: url('../../Fonts/ProximaNova-Regular.otf') format('opentype');
+}
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+/*================================= 
+        Font-Family's End
+  =================================*/
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+.main-padding {
+    padding: 0 110px;
+}
+
+.top-bg-color {
+    padding: 12px 7px 5px 7px;
+    background: #3cb878;
+}
+
+.top-contact-bg-color {
+    padding: 20px 7px 9px 7px;
+    background: #3cb878;
+}
+
+.top-nav-text {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vertical-line {
+    position: relative;
+}
+
+    .vertical-line:after {
+        content: '';
+        top: 0;
+        position: absolute;
+        height: 100%;
+        background: #ffffff;
+        width: 3px;
+        right: 6px;
+    }
+
+#top-section [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    margin-left: 0;
+    color: #0a3b5d;
+    font-size: 28px;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+    .link-style:hover {
+        text-decoration: none;
+        color: #ffffff;
+    }
+/*================================= 
+    Navbar Section Styling
+  =================================*/
+
+
+.active .nav-link {
+    position: relative;
+    color: #3cb878 !important;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+    .active .nav-link::after {
+        position: absolute;
+        content: '';
+        width: 40%;
+        height: 3px;
+        background: #3cb878;
+        left: 29%;
+        bottom: 0;
+    }
+
+
+.w-48 {
+    width: 48%;
+}
+
+.sleep {
+    padding: 0px 100px 3px 100px;
+    transition: all .4s ease-in-out;
+}
+
+.nav-setting-on-scroll {
+    padding: 0px 20px !important;
+}
+
+.easy-nav-on-scroll {
+    margin-top: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.nav-item {
+    padding: 15px 16px 0 15px;
+    position: relative;
+}
+
+#my-nav-brand .navbar-brand {
+    display: inline;
+    margin-right: 0;
+}
+
+.nav-trans {
+    transition: padding 400ms linear;
+}
+
+.fixed-top {
+    transition: all .5s ease-in-out;
+}
+
+.navbar-nav .nav-link {
+    color: #0b3c5d;
+    font-size: 24px;
+    padding: 10px 0px 8px 0px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-padding-top {
+    padding: 80px 0;
+}
+
+#home {
+    padding: 80px 0 155px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-bg-color {
+    background: #eff0f1;
+}
+
+.main-bg-banner {
+    padding: 110px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home .main-banner-text {
+    font-size: 43px;
+    color: #eff0f1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color-text {
+    color: #eac76a;
+}
+
+#home .banner-sub-text {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-contact {
+    width: 200px;
+    height: 65px;
+    border-radius: 0;
+    color: #3cb878;
+    line-height: 52px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 2px solid #3cb878;
+    background: transparent;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+    .btn-contact:hover {
+        text-decoration: none;
+        color: #3cb878;
+    }
+
+#home .owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    color: #ffffff;
+}
+
+#home .owl-carousel .owl-item img {
+    width: 50%;
+    text-align: center;
+}
+
+#home .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 125px;
+    position: absolute;
+    left: 0;
+}
+
+
+
+#home .owl-theme .owl-dots .owl-dot span {
+    width: 449px;
+    height: 26px;
+    margin: 4px 0px;
+    background: #0b3c5d;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 0px;
+}
+
+#home .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #3cb878;
+}
+
+#home [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: 30px;
+    margin-left: 0;
+    color: #ffffff;
+}
+/*================================= 
+   Hope Section Styling
+  =================================*/
+#hope {
+    padding: 100px 0;
+}
+
+.hope-text {
+    font-size: 50px;
+    color: #0b3c5d;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hope-regular-desc {
+    font-size: 18px;
+    color: #87949e;
+    font-family: 'ProximaNova-Regular';
+}
+
+.hope-bold-desc {
+    font-size: 18px;
+    color: #87949e;
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+}
+
+.btn-learn {
+    text-decoration: none;
+    color: #ffffff;
+    width: 187px;
+    height: 51px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 23px;
+    background-color: rgb(11, 60, 93);
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 31px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+    .btn-learn:hover {
+        color: #ffffff;
+    }
+
+
+/*================================= 
+   Mission Section Styling
+  =================================*/
+#mission {
+    padding: 70px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mission-text {
+    font-size: 40px;
+    color: #0b3c5d;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.v-line {
+    position: relative;
+    display: block;
+}
+
+    .v-line:after {
+        content: '';
+        top: -19px;
+        position: absolute;
+        height: 185%;
+        width: 2px;
+        background: #ffffff;
+        right: -35px;
+    }
+
+.mission-desc {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.refference-text {
+    font-size: 20px;
+    color: #0b3c5d;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containing {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.t-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .8;
+    background-color: #2b4b5b;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.containing:hover .overlay {
+    height: 100%;
+}
+/*================================= 
+     Services Section Styling
+  =================================*/
+#services {
+    padding: 80px 0;
+    background: #f8f9f9;
+}
+
+.services-text {
+    font-size: 50px;
+    color: #0b3c5d;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.below-services {
+    position: relative;
+    display: inline-block;
+}
+
+    .below-services:after {
+        content: '';
+        bottom: -13px;
+        left: 41%;
+        width: 26%;
+        height: 2px;
+        position: absolute;
+        border: 2px solid #3cb878;
+    }
+
+.services-desc-text {
+    color: #87949e;
+    font-size: 18px;
+    font-family: 'Proxima Nova Semibold';
+}
+
+.service-heading-text {
+    font-size: 40px;
+    color: #576671;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.service-desc {
+    font-size: 17px;
+    color: #576671;
+    line-height: 45px;
+    font-family: 'ProximaNova-Regular';
+}
+
+.icon-bg-color {
+    padding: 0 17px;
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    background: #ffffff;
+    line-height: 92px;
+}
+/*================================= 
+    Love Sections Styling
+  =================================*/
+
+#love {
+    padding: 70px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.love-text {
+    font-size: 26px;
+    color: #0b3c5d;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.love-desc {
+    font-size: 20px;
+    color: #576671;
+    font-family: 'Proxima Nova Semibold';
+}
+
+.love-regular-desc {
+    font-size: 18px;
+    color: #576671;
+    font-family: 'ProximaNova-Regular';
+}
+
+.option-text {
+    font-size: 19px;
+    color: #576671;
+    font-family: 'Proxima Nova Semibold';
+}
+
+#love [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    color: #0b3c5d;
+    margin-left: 0;
+}
+
+#love .p-relative {
+    position: relative;
+}
+
+#love .p-absolute {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+}
+/*================================= 
+       Team Section Styling
+  =================================*/
+#team {
+    padding: 80px 0;
+    background: #edf4f8;
+}
+
+.pastor-text {
+    font-size: 50px;
+    color: #0b3c5d;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pastor-desc-text {
+    font-size: 18px;
+    color: #87949e;
+    font-family: 'ProximaNova-Regular';
+}
+
+.below-pastor {
+    position: relative;
+    display: inline-block;
+}
+
+    .below-pastor:after {
+        content: '';
+        bottom: -13px;
+        left: 40%;
+        width: 24%;
+        height: 2px;
+        position: absolute;
+        border: 2px solid #3cb878;
+    }
+
+#team .image-border {
+    border-radius: 50%;
+    border: 2px solid #576671;
+    padding: 3px;
+}
+
+.card-shadow {
+    -webkit-box-shadow: 15px 20px 28px -26px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 20px 28px -26px rgba(0,0,0,0.75);
+    box-shadow: 15px 20px 28px -26px rgba(0,0,0,0.75);
+}
+
+.my-card {
+    padding: 30px 20px 45px 20px;
+    text-align: center;
+    border: 2px solid #576671;
+    background: #f9f9fa;
+}
+
+.my-card-body {
+    text-align: center;
+}
+
+.name-text {
+    font-size: 22px;
+    color: #3b627c;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.designation-text {
+    font-size: 18px;
+    color: #97a0a7;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.below-designtion {
+    position: relative;
+    display: inline-block;
+}
+
+    .below-designtion:after {
+        content: '';
+        bottom: -21px;
+        left: 36%;
+        width: 26%;
+        height: 2px;
+        position: absolute;
+        border: 2px solid #dedede;
+    }
+
+.team-text {
+    font-size: 16px;
+    color: #919ba2;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team-icon-bg-color {
+    padding: 14px;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background-color: rgb(222, 222, 222);
+}
+
+
+
+#team [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    color: #576671;
+    margin-left: 0;
+}
+
+#team .owl-carousel .owl-item img {
+    width: 60%;
+}
+
+#team .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 40px;
+}
+
+#team .owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 0px 12px;
+    border: 5px solid #576671;
+    background: transparent;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 0px;
+}
+
+#team .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #0b3c5d;
+}
+/*------- Hover Nazam --------*/
+#team .my-card:hover {
+    background: #0b3c5d;
+}
+
+    #team .my-card:hover .name-text {
+        color: #ced8df;
+    }
+
+    #team .my-card:hover .image-border {
+        border: 2px solid #576671;
+    }
+
+
+
+
+/*================================= 
+        blog Section Styling
+  =================================*/
+.blog-text {
+    font-size: 50px;
+    color: #0b3c5d;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.below-blog {
+    position: relative;
+    display: inline-block;
+}
+
+    .below-blog:after {
+        content: '';
+        bottom: -17px;
+        left: 34%;
+        width: 26%;
+        height: 2px;
+        position: absolute;
+        border: 2px solid #3cb878;
+    }
+
+.blog-desc-text {
+    font-size: 18px;
+    color: #87949e;
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+}
+
+.card-heading {
+    font-size: 23px;
+    color: #3a4852;
+    font-family: 'Proxima Nova Semibold';
+}
+
+.card-desc-text {
+    font-size: 16px;
+    color: #646464;
+    font-family: 'arial';
+}
+
+.dot-style {
+    font-size: 20px;
+    color: #646464;
+    text-decoration: none;
+}
+
+    .dot-style:hover {
+        color: #646464;
+        text-decoration: none;
+    }
+
+#blog .card {
+    border: 1px solid #576671;
+    border-radius: 0;
+}
+
+#blog .card-img-top {
+    border-radius: 0;
+}
+
+.strip-position-relative {
+    position: relative;
+    overflow: hidden;
+}
+
+.strip-position-absolute {
+    top: -83px;
+    position: absolute;
+    right: -161px;
+}
+
+.icon-position-absolute {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+}
+/*================================= 
+       News Section Styling
+  =================================*/
+#contact {
+    padding: 60px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.news-heading {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.news-text {
+    font-size: 18px;
+    color: #bbbbbb;
+    font-family: 'Proxima Nova Semibold';
+}
+
+.input-email {
+    padding: 0 24px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 26px;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    height: 59px;
+    width: 50%;
+}
+
+
+.btn-sign {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 26px;
+    background-color: rgb(255, 255, 255);
+    width: 218px;
+    height: 59px;
+    color: #7f4c42;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#contact ::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: #f3f4f6;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn-position-relative {
+    position: relative;
+}
+
+.btn-position-absolute {
+    position: absolute;
+    top: 0px;
+    right: 13px;
+}
+
+#contact-social [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    border: 2px solid #ffffff;
+    margin-left: 0;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 11px;
+}
+
+#contact-info .contact-heading {
+    font-size: 24px;
+    color: #3cb878;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact-info .desc-text {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact-info [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: 22px;
+    color: #ffffff;
+    margin-left: 0;
+}
+
+.below-contact {
+    position: relative;
+    display: flex;
+}
+
+    .below-contact:after {
+        content: '';
+        bottom: -10px;
+        left: 0;
+        width: 232px;
+        height: 2px;
+        position: absolute;
+        border: 1px solid #141414;
+    }
+
+.touch-heading {
+    font-size: 24px;
+    color: #3cb878;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-contact {
+    color: #ffffff;
+    padding: 0 17px;
+    border-width: 2px;
+    border-color: #787878;
+    border-style: solid;
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 54px;
+    width: 100%;
+    background: transparent;
+}
+
+.input-textarea {
+    color: #ffffff;
+    width: 100%;
+    padding: 17px;
+    border-width: 2px;
+    border-color: #787878;
+    border-style: solid;
+    background: transparent;
+    resize: none;
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.field {
+    position: absolute;
+    left: 1198px;
+    top: 7996px;
+    width: 418px;
+    z-index: 318;
+}
+
+#touch ::placeholder {
+    font-size: 18px;
+    color: #737272;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-send {
+    color: #ffffff;
+    position: absolute;
+    width: 111px;
+    border-radius: 0;
+    height: 55px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: rgb(60, 184, 120);
+    bottom: 6px;
+    right: 0;
+}
+
+.footer-bg-color {
+    background: #0b3c5d;
+    padding: 30px 0 14px 0;
+}
+
+.footer-font {
+    font-size: 17px;
+    color: #d8deff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+/*================================= 
+          Read More Styling
+  =================================*/
+.comments-space {
+    /*padding: 13px 10px 0 10px;*/
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.comments-spaces {
+    text-align: justify;
+}
+
+.remaining-contents span {
+    display: none;
+}
+
+
+/*=================== Custome Margins ===================*/
+.mt--180 {
+    margin-top: -180px;
+}
+
+.mt--375 {
+    margin-top: -375px;
+}
+
+.mt--100 {
+    margin-top: -100px;
+}
+
+.mt--55 {
+    margin-top: -55px;
+}
+
+.mt--44 {
+    margin-top: -44px;
+}
+
+.mt--30 {
+    margin-top: -30px;
+}
+
+.mt--9 {
+    margin-top: -9px;
+}
+
+.mt-300 {
+    margin-top: 300px;
+}
+
+.mt-290 {
+    margin-top: 290px;
+}
+
+.mt-280 {
+    margin-top: 280px;
+}
+
+.mt-270 {
+    margin-top: 270px;
+}
+
+.mt-260 {
+    margin-top: 260px;
+}
+
+.mt-250 {
+    margin-top: 250px;
+}
+
+.mt-240 {
+    margin-top: 240px;
+}
+
+.mt-230 {
+    margin-top: 230px;
+}
+
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-140 {
+    margin-top: 140px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.mt-115 {
+    margin-top: 115px;
+}
+
+.mt-110 {
+    margin-top: 110px;
+}
+
+.mt-108 {
+    margin-top: 108px;
+}
+
+.mt-106 {
+    margin-top: 106px;
+}
+
+.mt-105 {
+    margin-top: 105px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-99 {
+    margin-top: 99px;
+}
+
+.mt-98 {
+    margin-top: 98px;
+}
+
+.mt-97 {
+    margin-top: 97px;
+}
+
+.mt-96 {
+    margin-top: 96px;
+}
+
+.mt-95 {
+    margin-top: 95px;
+}
+
+.mt-94 {
+    margin-top: 94px;
+}
+
+.mt-93 {
+    margin-top: 93px;
+}
+
+.mt-91 {
+    margin-top: 91px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt-89 {
+    margin-top: 89px;
+}
+
+.mt-88 {
+    margin-top: 88px;
+}
+
+.mt-87 {
+    margin-top: 87px;
+}
+
+.mt-86 {
+    margin-top: 86px;
+}
+
+.mt-85 {
+    margin-top: 85px;
+}
+
+.mt-84 {
+    margin-top: 84px;
+}
+
+.mt-83 {
+    margin-top: 83px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-75 {
+    margin-top: 75px;
+}
+
+.mt-74 {
+    margin-top: 74px;
+}
+
+.mt-73 {
+    margin-top: 73px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-65 {
+    margin-top: 65px;
+}
+
+.mt-64 {
+    margin-top: 64px;
+}
+
+.mt-63 {
+    margin-top: 63px;
+}
+
+.mt-62 {
+    margin-top: 62px;
+}
+
+.mt-61 {
+    margin-top: 61px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.mt-53 {
+    margin-top: 53px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-49 {
+    margin-top: 49px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mt-47 {
+    margin-top: 47px;
+}
+
+.mt-46 {
+    margin-top: 46px;
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+
+.mt-44 {
+    margin-top: 44px;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.mt-42 {
+    margin-top: 42px;
+}
+
+.mt-41 {
+    margin-top: 41px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-34 {
+    margin-top: 34px;
+}
+
+.mt-33 {
+    margin-top: 32px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt-31 {
+    margin-top: 31px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-29 {
+    margin-top: 29px;
+}
+
+.mt-28 {
+    margin-top: 28px;
+}
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+.mt-26 {
+    margin-top: 26px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-21 {
+    margin-top: 21px;
+}
+
+.mt-22 {
+    margin-top: 22px;
+}
+
+.mt-23 {
+    margin-top: 23px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-18 {
+    margin-top: 18px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+/*=========== Margin Bottom ===========*/
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+}
+
+.mb-160 {
+    margin-bottom: 160px;
+}
+
+.b-50 {
+    bottom: 50px;
+}
+
+.b-30 {
+    bottom: 30px;
+}
+/*================ Margin-Left ===================*/
+.ml-23 {
+    margin-left: 23px;
+}
+
+.ml-77 {
+    margin-left: 77%;
+}
+
+.ml--47 {
+    margin-left: -47px;
+}
+
+.ml-36-p {
+    margin-left: 36%;
+}
+
+
+
+.ml-25-p {
+    margin-left: 25%;
+}
+
+.ml-23-p {
+    margin-left: 23%;
+}
+/*================ Padding-Top ===================*/
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+
+
+/*======= Some Commen Styling ======*/
+
+
+button:focus {
+    outline: none;
+    outline: none;
+}
+
+.btn-load-more {
+    width: 175px;
+    height: 57px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #0b3c5d;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+/*------ Scrolling Css --------*/
+/* width */
+.containing .overlay::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.containing .overlay::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black;
+    border-radius: 20px;
+}
+
+/* Handle */
+.containing .overlay::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 20px;
+}
+
+    /* Handle on hover */
+    .containing .overlay::-webkit-scrollbar-thumb:hover {
+        background: #000000;
+    }
+/*---------------------------*/
+.list-styling {
+    list-style: none;
+}
+/*================ Media Query ===============*/
+@media screen and (max-width: 1500px) {
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 455px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 474px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 449px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .media-width-48 {
+        width: 48%;
+    }
+
+    .media-dispaly-none-768 {
+        display: block !important;
+    }
+
+    .top-nav-text {
+        font-size: 9px;
+    }
+
+    .top-bg-color {
+        padding: 12px 16px 2px 7px;
+    }
+
+    .top-contact-bg-color {
+        padding: 14px 1px 0px 7px;
+    }
+
+
+    .navbar-nav .nav-link {
+        font-size: 21px;
+    }
+
+    .nav-item {
+        padding: 0px 3px 0 0px;
+    }
+
+    .media-logo-width {
+        width: 100%;
+    }
+
+    #home .main-banner-text {
+        font-size: 33px;
+    }
+
+    .btn-contact {
+        width: 170px;
+        height: 49px;
+        line-height: 31px;
+        font-size: 15px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 341px;
+    }
+
+    .hope-text {
+        font-size: 34px;
+    }
+
+    .hope-regular-desc {
+        font-size: 16px;
+    }
+
+    .hope-bold-desc {
+        font-size: 16px;
+    }
+
+    #mission {
+        padding: 49px 0;
+    }
+
+    .mission-text {
+        font-size: 32px;
+    }
+
+    .mission-desc {
+        font-size: 16px;
+    }
+
+    .services-text {
+        font-size: 37px;
+    }
+
+    .services-desc-text {
+        font-size: 16px;
+    }
+
+    .service-heading-text {
+        font-size: 24px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    .love-text {
+        font-size: 22px;
+    }
+
+    .love-desc {
+        font-size: 17px;
+    }
+
+    .love-regular-desc {
+        font-size: 16px;
+    }
+
+    .option-text {
+        font-size: 17px;
+    }
+
+    .pastor-text {
+        font-size: 32px;
+    }
+
+    .pastor-desc-text {
+        font-size: 16px;
+    }
+
+    .name-text {
+        font-size: 19px;
+    }
+
+    .designation-text {
+        font-size: 16px;
+    }
+
+    .team-text {
+        font-size: 14px;
+    }
+
+    .blog-text {
+        font-size: 32px;
+    }
+
+    .blog-desc-text {
+        font-size: 16px;
+    }
+
+    .card-heading {
+        font-size: 18px;
+    }
+
+    .card-desc-text {
+        font-size: 14px;
+    }
+
+    .btn-load-more {
+        width: 160px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    .news-heading {
+        font-size: 32px;
+    }
+
+    .news-text {
+        font-size: 16px;
+    }
+
+    .input-email {
+        height: 47px;
+    }
+
+    .btn-sign {
+        width: 177px;
+        height: 47px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .vertical-line:after {
+        width: 0px;
+    }
+
+    .ml-25-p {
+        margin-left: 36%;
+    }
+
+    #home .owl-carousel .owl-item img {
+        width: 43%;
+        text-align: center;
+    }
+
+    .media-logo-width {
+        width: 33%;
+    }
+
+    #top-section .offset-md-2 {
+        margin-left: 0;
+    }
+
+    .top-nav-text {
+        font-size: 16px;
+    }
+
+    .media-dispaly-none {
+        display: none !important;
+    }
+
+    #home .main-banner-text {
+        font-size: 26px;
+    }
+
+    .media-ml-36-p {
+        margin-left: 39%;
+    }
+
+    .sleep {
+        padding: 0px 10px 3px 10px;
+    }
+
+    .main-padding {
+        padding: 0 30px;
+    }
+
+    #home .main-banner-text {
+        font-size: 27px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 300px;
+    }
+
+    .mt--30 {
+        margin-top: 24px;
+    }
+
+    .hope-regular-desc {
+        font-size: 18px;
+    }
+
+    .hope-bold-desc {
+        font-size: 18px;
+    }
+
+    .v-line:after {
+        content: '';
+        top: 0px;
+        height: 224%;
+    }
+
+    .mission-text {
+        font-size: 24px;
+    }
+
+    #mission {
+        padding: 38px 0 19px 0;
+    }
+
+    .services-text {
+        font-size: 30px;
+    }
+
+    .service-heading-text {
+        font-size: 22px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .media-video-mt {
+        margin-top: 30px;
+    }
+
+    .team-icon-bg-color {
+        padding: 9px;
+    }
+
+    .love-desc {
+        font-size: 18px;
+    }
+
+    .love-regular-desc {
+        font-size: 18px;
+    }
+
+    .option-text {
+        font-size: 20px;
+    }
+
+    .btn-sign {
+        width: 128px;
+        height: 43px;
+        font-size: 18px;
+    }
+
+    .input-email {
+        height: 43px;
+    }
+
+    #contact-info .contact-heading {
+        font-size: 18px;
+    }
+
+    .touch-heading {
+        font-size: 18px;
+    }
+
+    #contact-info .desc-text {
+        font-size: 12px;
+    }
+
+    #contact-social [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        border: 2px solid #ffffff;
+        margin-left: 0;
+        font-size: 16px;
+        border-radius: 50%;
+        padding: 4px;
+    }
+
+    .input-contact {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .media-width-48 {
+        width: 48%;
+    }
+
+    .media-dispaly-none-768 {
+        display: block !important;
+    }
+
+    .main-padding {
+        padding: 0px 31px;
+    }
+
+    .media-logo-width {
+        width: 50%;
+    }
+
+    .media-ml-36-p {
+        margin-left: 36%;
+    }
+
+    .vertical-line:after {
+        content: '';
+        height: 0%;
+    }
+
+    #top-section .offset-md-2 {
+        margin-left: 0;
+    }
+
+    .top-nav-text {
+        font-size: 15px;
+    }
+
+    #home .main-banner-text {
+        font-size: 27px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 265px;
+    }
+
+    .mt--30 {
+        margin-top: 24px;
+    }
+
+    .hope-regular-desc {
+        font-size: 18px;
+    }
+
+    .hope-bold-desc {
+        font-size: 18px;
+    }
+
+    .v-line:after {
+        content: '';
+        top: 0px;
+        height: 224%;
+    }
+
+    .mission-text {
+        font-size: 24px;
+    }
+
+    #mission {
+        padding: 38px 0 19px 0;
+    }
+
+    .services-text {
+        font-size: 30px;
+    }
+
+    .service-heading-text {
+        font-size: 22px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .media-video-mt {
+        margin-top: 30px;
+    }
+
+    .team-icon-bg-color {
+        padding: 9px;
+    }
+
+    .love-desc {
+        font-size: 18px;
+    }
+
+    .love-regular-desc {
+        font-size: 18px;
+    }
+
+    .option-text {
+        font-size: 20px;
+    }
+
+    .btn-sign {
+        width: 128px;
+        height: 43px;
+        font-size: 18px;
+    }
+
+    .input-email {
+        height: 43px;
+    }
+
+    #contact-info .contact-heading {
+        font-size: 18px;
+    }
+
+    .touch-heading {
+        font-size: 18px;
+    }
+
+    #contact-info .desc-text {
+        font-size: 12px;
+    }
+
+    #contact-social [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        border: 2px solid #ffffff;
+        margin-left: 0;
+        font-size: 16px;
+        border-radius: 50%;
+        padding: 4px;
+    }
+
+    .input-contact {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .media-dispaly-none-768 {
+        display: block !important;
+    }
+
+    .main-padding {
+        padding: 0px 31px;
+    }
+
+    .media-logo-width {
+        width: 50%;
+    }
+
+    .media-ml-36-p {
+        margin-left: 36%;
+    }
+
+    .vertical-line:after {
+        content: '';
+        height: 0%;
+    }
+
+    #top-section .offset-md-2 {
+        margin-left: 0;
+    }
+
+    .top-nav-text {
+        font-size: 15px;
+    }
+
+    #home .main-banner-text {
+        font-size: 27px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 256px;
+    }
+
+    .mt--30 {
+        margin-top: 24px;
+    }
+
+    .hope-regular-desc {
+        font-size: 18px;
+    }
+
+    .hope-bold-desc {
+        font-size: 18px;
+    }
+
+    .v-line:after {
+        content: '';
+        top: 0px;
+        height: 224%;
+    }
+
+    .mission-text {
+        font-size: 24px;
+    }
+
+    #mission {
+        padding: 38px 0 19px 0;
+    }
+
+    .services-text {
+        font-size: 30px;
+    }
+
+    .service-heading-text {
+        font-size: 22px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .media-video-mt {
+        margin-top: 30px;
+    }
+
+    .love-desc {
+        font-size: 18px;
+    }
+
+    .love-regular-desc {
+        font-size: 18px;
+    }
+
+    .option-text {
+        font-size: 20px;
+    }
+
+    .btn-sign {
+        width: 128px;
+        height: 43px;
+        font-size: 18px;
+    }
+
+    .input-email {
+        height: 43px;
+    }
+
+    #contact-info .contact-heading {
+        font-size: 18px;
+    }
+
+    .touch-heading {
+        font-size: 18px;
+    }
+
+    #contact-info .desc-text {
+        font-size: 12px;
+    }
+
+    #contact-social [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        border: 2px solid #ffffff;
+        margin-left: 0;
+        font-size: 16px;
+        border-radius: 50%;
+        padding: 4px;
+    }
+
+    .input-contact {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .media-logo-width {
+        width: 70%;
+    }
+
+    .media-dispaly-none {
+        display: none !important;
+    }
+
+    .media-ml-36-p {
+        margin-left: 22%;
+    }
+
+    .sleep {
+        padding: 0px 10px 3px 10px;
+    }
+
+    .main-padding {
+        padding: 0 32px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 138px;
+    }
+
+    .mt-50 {
+        margin-top: 12px;
+    }
+
+    .hope-text {
+        font-size: 25px;
+    }
+
+    .media-mission-mt {
+        margin-top: 30px;
+    }
+
+    .service-heading-text {
+        font-size: 20px;
+    }
+
+    .option-text {
+        font-size: 17px;
+    }
+
+    .media-video-img-width {
+        width: 100%;
+    }
+
+    .media-icon-width {
+        width: 50%;
+    }
+
+    .pastor-text {
+        font-size: 25px;
+    }
+
+    .blog-text {
+        font-size: 26px;
+    }
+
+    .input-email {
+        height: 43px;
+        width: 91%;
+    }
+
+    .news-heading {
+        font-size: 26px;
+    }
+
+    .media-logo-footer-img {
+        width: 48%;
+    }
+
+    .media-footer-center {
+        text-align: center;
+    }
+
+    .media-footer-mt {
+        margin-top: 50px;
+    }
+
+    #contact-info .desc-text {
+        font-size: 16px;
+    }
+
+    .media-footer-mt-p {
+        margin-top: 250%;
+    }
+
+    #contact-social [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 19px;
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 137px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 125px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 120px;
+    }
+}
+
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media screen and (max-width:1366px ) and (orientation: landscape) {
+    .nav-item {
+        padding: 15px 19px 0 15px;
+        position: relative;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 449px;
+    }
+}
+
+@media screen and (max-width: 1280px) and (orientation: landscape) {
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 426px;
+    }
+
+    .nav-item {
+        padding: 15px 7px 0 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .nav-item {
+        padding: 5px 3px 4px 0px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 341px;
+    }
+}
+
+
+
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .vertical-line:after {
+        width: 0px;
+    }
+
+    .ml-25-p {
+        margin-left: 36%;
+    }
+
+    #home .owl-carousel .owl-item img {
+        width: 43%;
+        text-align: center;
+    }
+
+    .media-logo-width {
+        width: 33%;
+    }
+
+    #top-section .offset-md-2 {
+        margin-left: 0;
+    }
+
+    .top-nav-text {
+        font-size: 16px;
+    }
+
+    .media-dispaly-none {
+        display: none !important;
+    }
+
+    #home .main-banner-text {
+        font-size: 26px;
+    }
+
+    .media-ml-36-p {
+        margin-left: 39%;
+    }
+
+    .sleep {
+        padding: 0px 10px 3px 10px;
+    }
+
+    .main-padding {
+        padding: 0 30px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 274px;
+    }
+
+    .mt--30 {
+        margin-top: 15px;
+    }
+
+    .mt-50 {
+        margin-top: 12px;
+    }
+
+    .hope-text {
+        font-size: 25px;
+    }
+
+    .mission-text {
+        font-size: 25px;
+    }
+
+    .v-line:after {
+        height: 230px;
+        width: 2px;
+    }
+
+    .overlay {
+        width: 100%;
+        left: 0;
+    }
+
+    .service-desc {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .team-icon-bg-color {
+        padding: 9px;
+    }
+
+    .media-gallery-align {
+        text-align: center;
+    }
+
+
+
+    .media-mission-mt {
+        margin-top: 0px;
+    }
+
+    .service-heading-text {
+        font-size: 20px;
+    }
+
+    .option-text {
+        font-size: 17px;
+    }
+
+    .media-video-img-width {
+        width: 100%;
+    }
+
+    .media-icon-width {
+        width: 50%;
+    }
+
+    .pastor-text {
+        font-size: 25px;
+    }
+
+    .blog-text {
+        font-size: 26px;
+    }
+
+    .input-email {
+        height: 48px;
+        width: 100%;
+    }
+
+    .btn-position-absolute {
+        right: -110px;
+    }
+
+    .news-heading {
+        font-size: 26px;
+    }
+
+    .media-logo-footer-img {
+        width: 100%;
+    }
+
+    .media-footer-center {
+        text-align: match-parent;
+    }
+
+    .media-footer-mt {
+        margin-top: 30px;
+    }
+
+    #contact-info .desc-text {
+        font-size: 12px;
+    }
+
+    .touch-heading {
+        font-size: 18px;
+    }
+
+    .input-contact {
+        height: 39px;
+        width: 100%;
+    }
+
+    #contact-info .contact-heading {
+        font-size: 18px;
+    }
+
+    .media-footer-mt-p {
+        margin-top: 0%;
+    }
+
+    .btn-send {
+        font-size: 15px;
+        height: 44px;
+    }
+
+    #contact-social [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 20px;
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 740px) and (orientation: landscape) {
+
+    #home .main-banner-text {
+        font-size: 36px;
+    }
+
+
+
+    .mission-text {
+        font-size: 30px;
+    }
+
+    .mission-desc {
+        font-size: 18px;
+    }
+
+    .media-logo-width {
+        width: 33%;
+    }
+
+    .media-dispaly-none {
+        display: none !important;
+    }
+
+    .media-ml-36-p {
+        margin-left: 39%;
+    }
+
+    .sleep {
+        padding: 0px 10px 3px 10px;
+    }
+
+    .main-padding {
+        padding: 0 30px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 246px;
+    }
+
+    .mt-50 {
+        margin-top: 12px;
+    }
+
+    .hope-text {
+        font-size: 25px;
+    }
+
+    .v-line:after {
+        height: 0%;
+        width: 2px;
+    }
+
+    .overlay {
+        width: 62.4%;
+        left: 18.8%;
+    }
+
+    .media-gallery-align {
+        text-align: center;
+    }
+
+    .media-mission-mt {
+        margin-top: 30px;
+    }
+
+    .service-heading-text {
+        font-size: 20px;
+    }
+
+    .option-text {
+        font-size: 17px;
+    }
+
+    .media-video-img-width {
+        width: 100%;
+    }
+
+    .media-icon-width {
+        width: 50%;
+    }
+
+    .pastor-text {
+        font-size: 25px;
+    }
+
+    .blog-text {
+        font-size: 26px;
+    }
+
+    .input-email {
+        height: 43px;
+        width: 98%;
+    }
+
+    .btn-position-absolute {
+        right: 0px;
+    }
+
+    .news-heading {
+        font-size: 26px;
+    }
+
+    .media-logo-footer-img {
+        width: 48%;
+    }
+
+    .media-footer-center {
+        text-align: center;
+    }
+
+    .media-footer-mt {
+        margin-top: 30px;
+    }
+
+    #contact-info .desc-text {
+        font-size: 16px;
+    }
+
+    .media-footer-mt-p {
+        margin-top: 175%;
+    }
+
+    #contact-social [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 19px;
+        padding: 12px;
+    }
+
+    .active .nav-link::after {
+        width: 6%;
+        left: 47%;
+    }
+}
+
+
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+
+    #home .main-banner-text {
+        font-size: 36px;
+    }
+
+
+
+    .mission-text {
+        font-size: 30px;
+    }
+
+    .mission-desc {
+        font-size: 18px;
+    }
+
+    .media-logo-width {
+        width: 33%;
+    }
+
+    .media-dispaly-none {
+        display: none !important;
+    }
+
+    .media-ml-36-p {
+        margin-left: 39%;
+    }
+
+    .sleep {
+        padding: 0px 10px 3px 10px;
+    }
+
+    .main-padding {
+        padding: 0 30px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 243px;
+    }
+
+    .mt-50 {
+        margin-top: 12px;
+    }
+
+    .hope-text {
+        font-size: 25px;
+    }
+
+    .v-line:after {
+        height: 0%;
+        width: 2px;
+    }
+
+    .overlay {
+        width: 62.9%;
+        left: 18.6%;
+    }
+
+    .media-gallery-align {
+        text-align: center;
+    }
+
+    .media-mission-mt {
+        margin-top: 30px;
+    }
+
+    .service-heading-text {
+        font-size: 20px;
+    }
+
+    .option-text {
+        font-size: 17px;
+    }
+
+    .media-video-img-width {
+        width: 100%;
+    }
+
+    .media-icon-width {
+        width: 50%;
+    }
+
+    .pastor-text {
+        font-size: 25px;
+    }
+
+    .blog-text {
+        font-size: 26px;
+    }
+
+    .input-email {
+        height: 43px;
+        width: 98%;
+    }
+
+    .btn-position-absolute {
+        right: 0px;
+    }
+
+    .news-heading {
+        font-size: 26px;
+    }
+
+    .media-logo-footer-img {
+        width: 48%;
+    }
+
+    .media-footer-center {
+        text-align: center;
+    }
+
+    .media-footer-mt {
+        margin-top: 30px;
+    }
+
+    #contact-info .desc-text {
+        font-size: 16px;
+    }
+
+    .media-footer-mt-p {
+        margin-top: 175%;
+    }
+
+    #contact-social [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 19px;
+        padding: 12px;
+    }
+
+    .active .nav-link::after {
+        width: 6%;
+        left: 47%;
+    }
+}
+
+@media screen and (max-width: 731px) and (orientation: landscape) {
+
+    #home .main-banner-text {
+        font-size: 37px;
+    }
+
+
+
+    .mission-text {
+        font-size: 30px;
+    }
+
+    .mission-desc {
+        font-size: 18px;
+    }
+
+    .media-logo-width {
+        width: 33%;
+    }
+
+    .media-dispaly-none {
+        display: none !important;
+    }
+
+    .media-ml-36-p {
+        margin-left: 39%;
+    }
+
+    .sleep {
+        padding: 0px 10px 3px 10px;
+    }
+
+    .main-padding {
+        padding: 0 30px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 243px;
+    }
+
+    .mt-50 {
+        margin-top: 12px;
+    }
+
+    .hope-text {
+        font-size: 25px;
+    }
+
+    .v-line:after {
+        height: 0%;
+        width: 2px;
+    }
+
+    .overlay {
+        width: 62.9%;
+        left: 18.6%;
+    }
+
+    .media-gallery-align {
+        text-align: center;
+    }
+
+    .media-mission-mt {
+        margin-top: 30px;
+    }
+
+    .service-heading-text {
+        font-size: 20px;
+    }
+
+    .option-text {
+        font-size: 17px;
+    }
+
+    .media-video-img-width {
+        width: 100%;
+    }
+
+    .media-icon-width {
+        width: 50%;
+    }
+
+    .pastor-text {
+        font-size: 25px;
+    }
+
+    .blog-text {
+        font-size: 26px;
+    }
+
+    .input-email {
+        height: 43px;
+        width: 98%;
+    }
+
+    .btn-position-absolute {
+        right: 0px;
+    }
+
+    .news-heading {
+        font-size: 26px;
+    }
+
+    .media-logo-footer-img {
+        width: 48%;
+    }
+
+    .media-footer-center {
+        text-align: center;
+    }
+
+    .media-footer-mt {
+        margin-top: 30px;
+    }
+
+    #contact-info .desc-text {
+        font-size: 16px;
+    }
+
+    .media-footer-mt-p {
+        margin-top: 175%;
+    }
+
+    #contact-social [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 19px;
+        padding: 12px;
+    }
+
+    .active .nav-link::after {
+        width: 6%;
+        left: 47%;
+    }
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+
+    #home .main-banner-text {
+        font-size: 37px;
+    }
+
+
+
+    .mission-text {
+        font-size: 30px;
+    }
+
+    .mission-desc {
+        font-size: 18px;
+    }
+
+    .media-logo-width {
+        width: 33%;
+    }
+
+    .media-dispaly-none {
+        display: none !important;
+    }
+
+    .media-ml-36-p {
+        margin-left: 39%;
+    }
+
+    .sleep {
+        padding: 0px 10px 3px 10px;
+    }
+
+    .main-padding {
+        padding: 0 30px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 222px;
+    }
+
+    .mt-50 {
+        margin-top: 12px;
+    }
+
+    .hope-text {
+        font-size: 25px;
+    }
+
+    .v-line:after {
+        height: 0%;
+        width: 2px;
+    }
+
+    .overlay {
+        width: 68.9%;
+        left: 15.6%;
+    }
+
+    .media-gallery-align {
+        text-align: center;
+    }
+
+    .media-mission-mt {
+        margin-top: 30px;
+    }
+
+    .service-heading-text {
+        font-size: 20px;
+    }
+
+    .option-text {
+        font-size: 17px;
+    }
+
+    .media-video-img-width {
+        width: 100%;
+    }
+
+    .media-icon-width {
+        width: 50%;
+    }
+
+    .pastor-text {
+        font-size: 25px;
+    }
+
+    .blog-text {
+        font-size: 26px;
+    }
+
+    .input-email {
+        height: 43px;
+        width: 98%;
+    }
+
+    .btn-position-absolute {
+        right: 0px;
+    }
+
+    .news-heading {
+        font-size: 26px;
+    }
+
+    .media-logo-footer-img {
+        width: 48%;
+    }
+
+    .media-footer-center {
+        text-align: center;
+    }
+
+    .media-footer-mt {
+        margin-top: 30px;
+    }
+
+    #contact-info .desc-text {
+        font-size: 16px;
+    }
+
+    .media-footer-mt-p {
+        margin-top: 175%;
+    }
+
+    #contact-social [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 19px;
+        padding: 12px;
+    }
+
+    .active .nav-link::after {
+        width: 6%;
+        left: 47%;
+    }
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+
+    #home .main-banner-text {
+        font-size: 37px;
+    }
+
+
+
+    .mission-text {
+        font-size: 30px;
+    }
+
+    .mission-desc {
+        font-size: 18px;
+    }
+
+    .media-logo-width {
+        width: 33%;
+    }
+
+    .media-dispaly-none {
+        display: none !important;
+    }
+
+    .media-ml-36-p {
+        margin-left: 39%;
+    }
+
+    .sleep {
+        padding: 0px 10px 3px 10px;
+    }
+
+    .main-padding {
+        padding: 0 30px;
+    }
+
+    #home .owl-theme .owl-dots .owl-dot span {
+        width: 213px;
+    }
+
+    .mt-50 {
+        margin-top: 12px;
+    }
+
+    .hope-text {
+        font-size: 25px;
+    }
+
+    .v-line:after {
+        height: 0%;
+        width: 2px;
+    }
+
+    .overlay {
+        width: 71%;
+        left: 14.6%;
+    }
+
+    .media-gallery-align {
+        text-align: center;
+    }
+
+    .media-mission-mt {
+        margin-top: 30px;
+    }
+
+    .service-heading-text {
+        font-size: 20px;
+    }
+
+    .option-text {
+        font-size: 17px;
+    }
+
+    .media-video-img-width {
+        width: 100%;
+    }
+
+    .media-icon-width {
+        width: 50%;
+    }
+
+    .pastor-text {
+        font-size: 25px;
+    }
+
+    .blog-text {
+        font-size: 26px;
+    }
+
+    .input-email {
+        height: 43px;
+        width: 98%;
+    }
+
+    .btn-position-absolute {
+        right: 0px;
+    }
+
+    .news-heading {
+        font-size: 26px;
+    }
+
+    .media-logo-footer-img {
+        width: 48%;
+    }
+
+    .media-footer-center {
+        text-align: center;
+    }
+
+    .media-footer-mt {
+        margin-top: 30px;
+    }
+
+    #contact-info .desc-text {
+        font-size: 16px;
+    }
+
+    .media-footer-mt-p {
+        margin-top: 175%;
+    }
+
+    #contact-social [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 19px;
+        padding: 12px;
+    }
+
+    .active .nav-link::after {
+        width: 6%;
+        left: 47%;
+    }
+}
