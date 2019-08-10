@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 @font-face {
@@ -26,7 +26,7 @@ font-family: 'Roboto Slab', serif;
 font-family: 'Roboto', sans-serif;
 
 */
-/*================================= 
+/*=================================
         Font-Family's End
   =================================*/
 
@@ -43,8 +43,12 @@ html, body {
     padding: 0 110px;
 }
 
+.logo-width {
+    width: 80%;
+}
+
 .top-bg-color {
-    padding: 12px 7px 5px 7px;
+    padding: 12px 55px 7px 7px;
     background: #3cb878;
 }
 
@@ -54,7 +58,7 @@ html, body {
 }
 
 .top-nav-text {
-    font-size: 13px;
+    font-size: 12px;
     color: #ffffff;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -71,7 +75,7 @@ html, body {
         height: 100%;
         background: #ffffff;
         width: 3px;
-        right: 6px;
+        right: 40px;
     }
 
 #top-section [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
@@ -89,7 +93,7 @@ html, body {
         text-decoration: none;
         color: #ffffff;
     }
-/*================================= 
+/*=================================
     Navbar Section Styling
   =================================*/
 
@@ -119,7 +123,7 @@ html, body {
 }
 
 .sleep {
-    padding: 0px 100px 3px 100px;
+    padding: 0px 100px 0px 100px;
     transition: all .4s ease-in-out;
 }
 
@@ -133,7 +137,7 @@ html, body {
 }
 
 .nav-item {
-    padding: 15px 16px 0 15px;
+    padding: 15px 31px 0 28px;
     position: relative;
 }
 
@@ -231,7 +235,7 @@ html, body {
 }
 
 #home .owl-theme .owl-nav.disabled + .owl-dots {
-    margin-top: 125px;
+    margin-top: 126px;
     position: absolute;
     left: 0;
 }
@@ -239,8 +243,8 @@ html, body {
 
 
 #home .owl-theme .owl-dots .owl-dot span {
-    width: 449px;
-    height: 26px;
+    width: 506px;
+    height: 25px;
     margin: 4px 0px;
     background: #0b3c5d;
     display: block;
@@ -258,7 +262,11 @@ html, body {
     margin-left: 0;
     color: #ffffff;
 }
-/*================================= 
+
+#home .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    border: 0px solid #0b3c5d;
+}
+/*=================================
    Hope Section Styling
   =================================*/
 #hope {
@@ -296,7 +304,7 @@ html, body {
     background-color: rgb(11, 60, 93);
     font-weight: bold;
     font-size: 15px;
-    line-height: 31px;
+    line-height: 34px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -305,7 +313,7 @@ html, body {
     }
 
 
-/*================================= 
+/*=================================
    Mission Section Styling
   =================================*/
 #mission {
@@ -319,6 +327,7 @@ html, body {
     font-size: 40px;
     color: #0b3c5d;
     font-weight: 600;
+    text-align: right;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -388,7 +397,7 @@ html, body {
 .containing:hover .overlay {
     height: 100%;
 }
-/*================================= 
+/*=================================
      Services Section Styling
   =================================*/
 #services {
@@ -446,7 +455,7 @@ html, body {
     background: #ffffff;
     line-height: 92px;
 }
-/*================================= 
+/*=================================
     Love Sections Styling
   =================================*/
 
@@ -496,7 +505,11 @@ html, body {
     bottom: 14px;
     left: 14px;
 }
-/*================================= 
+
+#love .video-img-width {
+    width: 100%;
+}
+/*=================================
        Team Section Styling
   =================================*/
 #team {
@@ -618,7 +631,7 @@ html, body {
     width: 15px;
     height: 15px;
     margin: 0px 12px;
-    border: 5px solid #576671;
+    border: 3px solid #576671;
     background: transparent;
     display: block;
     -webkit-backface-visibility: visible;
@@ -627,7 +640,8 @@ html, body {
 }
 
 #team .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #0b3c5d;
+    background: transparent;
+    border: 5px solid #0b3c5d;
 }
 /*------- Hover Nazam --------*/
 #team .my-card:hover {
@@ -645,7 +659,7 @@ html, body {
 
 
 
-/*================================= 
+/*=================================
         blog Section Styling
   =================================*/
 .blog-text {
@@ -724,7 +738,7 @@ html, body {
     top: 8px;
     right: 12px;
 }
-/*================================= 
+/*=================================
        News Section Styling
   =================================*/
 #contact {
@@ -807,7 +821,7 @@ html, body {
 }
 
 #contact-info .desc-text {
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
@@ -909,7 +923,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
@@ -1397,6 +1411,10 @@ button:focus {
         width: 455px;
     }
 
+    .nav-item {
+        padding: 15px 21px 0 23px;
+    }
+
     #home .owl-theme .owl-dots .owl-dot span {
         width: 474px;
     }
@@ -1576,7 +1594,14 @@ button:focus {
 }
 
 @media screen and (max-width: 900px) {
+    .media-align-logo {
+        display: flex;
+        justify-content: center;
+    }
 
+    .media-mt-info {
+        margin-top: 20px;
+    }
 
     .vertical-line:after {
         width: 0px;
@@ -1861,7 +1886,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .media-dispaly-none-768 {
         display: block !important;
     }
@@ -1989,7 +2014,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     .media-logo-width {
         width: 70%;
     }
@@ -2092,23 +2117,26 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     #home .owl-theme .owl-dots .owl-dot span {
         width: 125px;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     #home .owl-theme .owl-dots .owl-dot span {
         width: 120px;
     }
+
+    .ml-25-p {
+        margin-left: 35%;
+    }
 }
 
-
 /*==================== Media Query For Land Scape Mode =====================*/
-@media screen and (max-width:1366px ) and (orientation: landscape) {
+@media screen and (max-width:1367px ) and (orientation: landscape) {
     .nav-item {
-        padding: 15px 19px 0 15px;
+        padding: 0px 17px 0 15px;
         position: relative;
     }
 
@@ -2124,11 +2152,9 @@ button:focus {
     }
 
     .nav-item {
-        padding: 15px 7px 0 15px;
+        padding: 0px 7px 0 15px;
     }
 }
-
-
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
     .nav-item {
@@ -2140,9 +2166,7 @@ button:focus {
     }
 }
 
-
-
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 824px) and (orientation: landscape) {
     .vertical-line:after {
         width: 0px;
     }
@@ -2318,7 +2342,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 812px) and (orientation: landscape) {
     #home .owl-theme .owl-dots .owl-dot span {
         width: 270px;
     }
@@ -2458,8 +2482,6 @@ button:focus {
     }
 }
 
-
-
 @media screen and (max-width: 736px) and (orientation: landscape) {
 
     #home .main-banner-text {
@@ -2594,7 +2616,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 731px) and (orientation: landscape) {
+@media screen and (max-width: 732px) and (orientation: landscape) {
 
     #home .main-banner-text {
         font-size: 37px;
@@ -2728,7 +2750,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 667px) and (orientation: landscape) {
+@media screen and (max-width: 668px) and (orientation: landscape) {
 
     #home .main-banner-text {
         font-size: 37px;
@@ -2862,7 +2884,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 640px) and (orientation: landscape) {
+@media screen and (max-width: 641spx) and (orientation: landscape) {
 
     #home .main-banner-text {
         font-size: 37px;
